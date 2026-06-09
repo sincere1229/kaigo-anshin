@@ -18,6 +18,24 @@ export default function Page() {
         { name: '在宅介護の限界チェック', href: '/diagnosis/genkai' },
         { name: '介護費用シミュレーション', href: '/diagnosis/cost' },
       ]}
+      recommendServices={[
+        {
+                "name": "イチロウ",
+                "url": "https://px.a8.net/svt/ejp?a8mat=5URGXE+54PG+5YJRM+HW5RNQ",
+                "description": "仕事を続けるために。プロに任せることで介護時間を圧縮できます。",
+                "forWho": "仕事と介護を両立したい方",
+                "notFor": "",
+                "badge": "介護サービス"
+        },
+        {
+                "name": "MANOMA",
+                "url": "https://px.a8.net/svt/ejp?a8mat=6DTCAA+59J2+639IQ+HW5RNQ",
+                "description": "仕事中も親を見守れる安心感。緊急時はアラートが届きます。",
+                "forWho": "仕事中も安心したい方",
+                "notFor": "",
+                "badge": "見守り"
+        }
+]}
     />
   )
 }

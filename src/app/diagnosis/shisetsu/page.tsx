@@ -18,6 +18,24 @@ export default function Page() {
         { name: '在宅介護の限界チェック', href: '/diagnosis/genkai' },
         { name: '介護離職リスク診断', href: '/diagnosis/roshoku' },
       ]}
+      recommendServices={[
+        {
+                "name": "イチロウ",
+                "url": "https://px.a8.net/svt/ejp?a8mat=5URGXE+54PG+5YJRM+HW5RNQ",
+                "description": "施設入居前・入居後も使える介護保険外サービス。外出支援・家族の代わりに対応。",
+                "forWho": "施設入居を検討中の方",
+                "notFor": "",
+                "badge": "介護サービス"
+        },
+        {
+                "name": "メディミール",
+                "url": "https://px.a8.net/svt/ejp?a8mat=6F07HU+4ICQ+5YZ76+HW5RNQ",
+                "description": "介護食・やわらか食の宅配。嚥下が心配な方向けのメニューも充実。",
+                "forWho": "食事に不安がある方",
+                "notFor": "",
+                "badge": "介護食"
+        }
+]}
     />
   )
 }

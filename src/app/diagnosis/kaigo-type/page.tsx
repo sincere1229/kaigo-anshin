@@ -18,6 +18,32 @@ export default function Page() {
         { name: '介護費用シミュレーション', href: '/diagnosis/cost' },
         { name: '介護離職リスク診断', href: '/diagnosis/roshoku' },
       ]}
+      recommendServices={[
+        {
+                "name": "イチロウ",
+                "url": "https://px.a8.net/svt/ejp?a8mat=5URGXE+54PG+5YJRM+HW5RNQ",
+                "description": "介護保険外のオーダーメイド介護サービス。入浴・外出・家事など24時間365日対応。",
+                "forWho": "在宅介護中の方",
+                "notFor": "",
+                "badge": "介護サービス"
+        },
+        {
+                "name": "MANOMA",
+                "url": "https://px.a8.net/svt/ejp?a8mat=6DTCAA+59J2+639IQ+HW5RNQ",
+                "description": "ソニーの親の見守りセット。緊急ボタン・カメラ・センサーで安心を提供。",
+                "forWho": "離れて暮らす親の見守りに",
+                "notFor": "",
+                "badge": "見守り"
+        },
+        {
+                "name": "メディカルフードサービス",
+                "url": "https://px.a8.net/svt/ejp?a8mat=6AU69E+4GYQ+5YJRM+HW5RNQ",
+                "description": "管理栄養士監修の宅配食。塩分・カロリー制限食も対応。",
+                "forWho": "食事の準備が大変な方に",
+                "notFor": "",
+                "badge": "宅配食"
+        }
+]}
     />
   )
 }
