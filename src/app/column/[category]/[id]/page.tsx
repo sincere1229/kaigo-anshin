@@ -88,7 +88,7 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ category: string; id: string }> }): Promise<Metadata> {
   const { category, id } = await params
-  const col = COLUMNS[params.category]?.[Number(params.id)]
+  const col = COLUMNS[category]?.[Number(id)]
   if (!col) return {}
   return {
     title: `${col.title} | やさしい介護ナビ`,
