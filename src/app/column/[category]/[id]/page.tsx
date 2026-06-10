@@ -97,7 +97,8 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
 }
 
 export default async function ColumnPage({ params }: { params: { category: string; id: string } }) {
-  const col = COLUMNS[params.category]?.[Number(params.id)]
+  const { category, id } = await params
+const col = COLUMNS[category]?.[Number(id)]
   if (!col) notFound()
   const catLabel = CAT_LABEL[params.category] || ''
   const idNum = Number(params.id)
