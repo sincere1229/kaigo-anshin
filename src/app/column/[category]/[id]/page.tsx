@@ -86,7 +86,7 @@ export async function generateStaticParams() {
   return params
 }
 
-export async function generateMetadata({ params }: { params: { category: string; id: string } }): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: Promise<{ category: string; id: string }> }): Promise<Metadata> {
   const col = COLUMNS[params.category]?.[Number(params.id)]
   if (!col) return {}
   return {
