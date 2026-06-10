@@ -100,7 +100,7 @@ export default async function ColumnPage({ params }: { params: Promise<{ categor
   const { category, id } = await params
 const col = COLUMNS[category]?.[Number(id)]
   if (!col) notFound()
-  const catLabel = CAT_LABEL[params.category] || ''
+  const catLabel = CAT_LABEL[category] || ''
   const idNum = Number(params.id)
 
   return (
