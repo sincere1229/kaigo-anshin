@@ -2,6 +2,9 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 
+export const dynamic = 'force-static'
+export const dynamicParams = false
+
 const COLUMNS: Record<string, Record<number, { title: string; body: string; a8: { name: string; url: string; desc: string }[] }>> = {
   'hajimete': {
     1: { title: "突然の介護宣告。まず何をすればいいか", body: "親が入院・退院などをきっかけに介護が必要になったとき、最初にすべき5つのことを解説します。", a8: [{"name": "イチロウ（介護保険外サービス）", "url": "https://px.a8.net/svt/ejp?a8mat=5URGXE+54PG+5YJRM+HW5RNQ", "desc": "入浴・外出などの介護保険外サービスをプロに依頼できます。"}, {"name": "MANOMA（親の見守りセット）", "url": "https://px.a8.net/svt/ejp?a8mat=6DTCAA+59J2+639IQ+HW5RNQ", "desc": "セコムの見守りサービス。緊急ボタン・カメラで安心。"}] },
