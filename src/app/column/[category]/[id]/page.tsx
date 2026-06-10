@@ -96,7 +96,7 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
   }
 }
 
-export default async function ColumnPage({ params }: { params: { category: string; id: string } }) {
+export default async function ColumnPage({ params }: { params: Promise<{ category: string; id: string }> }) {
   const { category, id } = await params
 const col = COLUMNS[category]?.[Number(id)]
   if (!col) notFound()
