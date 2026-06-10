@@ -96,7 +96,7 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
   }
 }
 
-export default function ColumnPage({ params }: { params: { category: string; id: string } }) {
+export default async function ColumnPage({ params }: { params: { category: string; id: string } }) {
   const col = COLUMNS[params.category]?.[Number(params.id)]
   if (!col) notFound()
   const catLabel = CAT_LABEL[params.category] || ''
