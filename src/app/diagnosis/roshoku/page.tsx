@@ -21,7 +21,7 @@ export default function Page() {
       recommendServices={[
         {
                 "name": "イチロウ",
-                "url": "https://px.a8.net/svt/ejp?a8mat=5URGXE+54PG+5YJRM+HW5RNQ",
+                "url": "https://px.a8.net/svt/ejp?a8mat=4B5LK2+5URGXE+54PG+5YJRM",
                 "description": "仕事を続けるために。プロに任せることで介護時間を圧縮できます。",
                 "forWho": "仕事と介護を両立したい方",
                 "notFor": "",
@@ -29,7 +29,7 @@ export default function Page() {
         },
         {
                 "name": "MANOMA",
-                "url": "https://px.a8.net/svt/ejp?a8mat=6DTCAA+59J2+639IQ+HW5RNQ",
+                "url": "https://px.a8.net/svt/ejp?a8mat=4B5LK2+6DTCAA+59J2+639IQ",
                 "description": "仕事中も親を見守れる安心感。緊急時はアラートが届きます。",
                 "forWho": "仕事中も安心したい方",
                 "notFor": "",
