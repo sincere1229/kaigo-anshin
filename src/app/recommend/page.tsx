@@ -7,19 +7,19 @@ export const metadata: Metadata = {
 
 const SERVICES = [
   { category: '🍱 宅配食・介護食', items: [
-    { name: 'メディカルフードサービス', desc: '管理栄養士監修の宅配食。塩分・カロリー制限食も対応。', badge: '介護食', url: 'https://px.a8.net/svt/ejp?a8mat=6AU69E+4GYQ+5YJRM+HW5RNQ' },
-    { name: '食楽膳', desc: '嚥下障害がある方向けのやわらか冷凍惣菜。飲み込みにくい方に。', badge: '嚥下対応', url: 'https://px.a8.net/svt/ejp?a8mat=6A8QNM+5VTA+5YJRM+HW5RNQ' },
-    { name: 'メディミール', desc: '介護食・やわらか食の宅配サービス。', badge: '宅配', url: 'https://px.a8.net/svt/ejp?a8mat=6F07HU+4ICQ+5YZ76+HW5RNQ' },
-    { name: '健康直球便', desc: 'バランスの取れた宅配弁当。高齢者向けメニュー充実。', badge: '宅配弁当', url: 'https://px.a8.net/svt/ejp?a8mat=6GSIB6+5E7E+5ZEMQ+HW5RNQ' },
-    { name: '宅配食事まとめ資料請求', desc: '複数の宅配食サービスをまとめて比較・資料請求できます。', badge: '比較', url: 'https://px.a8.net/svt/ejp?a8mat=6HDXWY+3RU+6Y3CDE+HW5RNQ' },
+    { name: 'メディカルフードサービス', desc: '管理栄養士監修の宅配食。塩分・カロリー制限食も対応。', badge: '介護食', url: 'https://px.a8.net/svt/ejp?a8mat=4B5LK2+6AU69E+4GYQ+5YJRM', beacon: 'https://www10.a8.net/0.gif?a8mat=4B5LK2+6AU69E+4GYQ+5YJRM' },
+    { name: '食楽膳', desc: '嚥下障害がある方向けのやわらか冷凍惣菜。飲み込みにくい方に。', badge: '嚥下対応', url: 'https://px.a8.net/svt/ejp?a8mat=4B5LK2+6A8QNM+5VTA+5YJRM', beacon: 'https://www11.a8.net/0.gif?a8mat=4B5LK2+6A8QNM+5VTA+5YJRM' },
+    { name: 'メディミール', desc: '介護食・やわらか食の宅配サービス。', badge: '宅配', url: 'https://px.a8.net/svt/ejp?a8mat=4B5LK2+6F07HU+4ICQ+5YZ76', beacon: 'https://www12.a8.net/0.gif?a8mat=4B5LK2+6F07HU+4ICQ+5YZ76' },
+    { name: '健康直球便', desc: 'バランスの取れた宅配弁当。高齢者向けメニュー充実。', badge: '宅配弁当', url: 'https://px.a8.net/svt/ejp?a8mat=4B5LK2+6GSIB6+5E7E+5ZEMQ', beacon: 'https://www10.a8.net/0.gif?a8mat=4B5LK2+6GSIB6+5E7E+5ZEMQ' },
+    { name: '宅配食事まとめ資料請求', desc: '複数の宅配食サービスをまとめて比較・資料請求できます。', badge: '比較', url: 'https://px.a8.net/svt/ejp?a8mat=4B5LK2+6HDXWY+3RU+6Y3CDE', beacon: 'https://www14.a8.net/0.gif?a8mat=4B5LK2+6HDXWY+3RU+6Y3CDE' },
   ]},
   { category: '👁 見守り・安心', items: [
-    { name: 'MANOMA（親の見守りセット）', desc: 'セコムの見守りサービス。緊急ボタン・カメラで離れた親を安心して見守れます。', badge: '見守り', url: 'https://px.a8.net/svt/ejp?a8mat=6DTCAA+59J2+639IQ+HW5RNQ' },
+    { name: 'MANOMA（親の見守りセット）', desc: 'セコムの見守りサービス。緊急ボタン・カメラで離れた親を安心して見守れます。', badge: '見守り', url: 'https://px.a8.net/svt/ejp?a8mat=4B5LK2+6DTCAA+59J2+639IQ', beacon: 'https://www10.a8.net/0.gif?a8mat=4B5LK2+6DTCAA+59J2+639IQ' },
   ]},
   { category: '🤲 介護サービス・グッズ', items: [
-    { name: 'イチロウ', desc: '入浴・外出などの介護保険外サービスをプロに依頼できます。', badge: '介護サービス', url: 'https://px.a8.net/svt/ejp?a8mat=5URGXE+54PG+5YJRM+HW5RNQ' },
-    { name: 'KIZIK（履きやすい靴）', desc: 'かがまずに履ける介護向けシューズ。転倒予防に最適。', badge: 'グッズ', url: 'https://px.a8.net/svt/ejp?a8mat=6G72PE+5W4O+5YRHE+HW5RNQ' },
-    { name: '冷凍庫レンタル.com', desc: '介護食の冷凍保存に便利な冷凍庫のレンタルサービス。', badge: 'レンタル', url: 'https://px.a8.net/svt/ejp?a8mat=6FLN3M+OE2+TS3OI+HW5RNQ' },
+    { name: 'イチロウ', desc: '入浴・外出などの介護保険外サービスをプロに依頼できます。', badge: '介護サービス', url: 'https://px.a8.net/svt/ejp?a8mat=4B5LK2+5URGXE+54PG+5YJRM', beacon: 'https://www10.a8.net/0.gif?a8mat=4B5LK2+5URGXE+54PG+5YJRM' },
+    { name: 'KIZIK（履きやすい靴）', desc: 'かがまずに履ける介護向けシューズ。転倒予防に最適。', badge: 'グッズ', url: 'https://px.a8.net/svt/ejp?a8mat=4B5LK2+6G72PE+5W4O+5YRHE', beacon: 'https://www12.a8.net/0.gif?a8mat=4B5LK2+6G72PE+5W4O+5YRHE' },
+    { name: '冷凍庫レンタル.com', desc: '介護食の冷凍保存に便利な冷凍庫のレンタルサービス。', badge: 'レンタル', url: 'https://px.a8.net/svt/ejp?a8mat=4B5LK2+6FLN3M+OE2+TS3OI', beacon: 'https://www13.a8.net/0.gif?a8mat=4B5LK2+6FLN3M+OE2+TS3OI' },
   ]},
 ]
 
@@ -33,14 +33,19 @@ export default function RecommendPage() {
         <div key={i} style={{ marginBottom: 24 }}>
           <h2 style={{ fontSize: 14, fontWeight: 700, color: '#374151', marginBottom: 10 }}>{sec.category}</h2>
           {sec.items.map((item, j) => (
-            <a key={j} href={item.url} target="_blank" rel="nofollow noopener noreferrer"
-              style={{ display: 'block', background: '#fff', border: '0.5px solid #e5e7eb', borderRadius: 10, padding: '12px 14px', marginBottom: 8, textDecoration: 'none' }}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 4 }}>
-                <span style={{ fontSize: 13, fontWeight: 600, color: '#1f2937' }}>{item.name}</span>
-                <span style={{ fontSize: 10, background: '#f0f9ff', color: '#0284c7', borderRadius: 4, padding: '2px 6px' }}>{item.badge}</span>
-              </div>
-              <p style={{ fontSize: 12, color: '#6b7280', margin: 0 }}>{item.desc}</p>
-            </a>
+            <div key={j}>
+              <a href={item.url} target="_blank" rel="nofollow noopener noreferrer"
+                style={{ display: 'block', background: '#fff', border: '0.5px solid #e5e7eb', borderRadius: 10, padding: '12px 14px', marginBottom: 8, textDecoration: 'none' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 4 }}>
+                  <span style={{ fontSize: 13, fontWeight: 600, color: '#1f2937' }}>{item.name}</span>
+                  <span style={{ fontSize: 10, background: '#f0f9ff', color: '#0284c7', borderRadius: 4, padding: '2px 6px' }}>{item.badge}</span>
+                </div>
+                <p style={{ fontSize: 12, color: '#6b7280', margin: 0 }}>{item.desc}</p>
+              </a>
+              {/* A8インプレッション計測ビーコン */}
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={item.beacon} width={1} height={1} alt="" style={{ border: 0 }} />
+            </div>
           ))}
         </div>
       ))}
