@@ -21,7 +21,7 @@ export default function Page() {
       recommendServices={[
         {
                 "name": "イチロウ",
-                "url": "https://px.a8.net/svt/ejp?a8mat=5URGXE+54PG+5YJRM+HW5RNQ",
+                "url": "https://px.a8.net/svt/ejp?a8mat=4B5LK2+5URGXE+54PG+5YJRM",
                 "description": "施設入居前・入居後も使える介護保険外サービス。外出支援・家族の代わりに対応。",
                 "forWho": "施設入居を検討中の方",
                 "notFor": "",
@@ -29,7 +29,7 @@ export default function Page() {
         },
         {
                 "name": "メディミール",
-                "url": "https://px.a8.net/svt/ejp?a8mat=6F07HU+4ICQ+5YZ76+HW5RNQ",
+                "url": "https://px.a8.net/svt/ejp?a8mat=4B5LK2+6F07HU+4ICQ+5YZ76",
                 "description": "介護食・やわらか食の宅配。嚥下が心配な方向けのメニューも充実。",
                 "forWho": "食事に不安がある方",
                 "notFor": "",
