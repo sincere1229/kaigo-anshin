@@ -21,7 +21,7 @@ export default function Page() {
       recommendServices={[
         {
                 "name": "宅配食事まとめ資料請求",
-                "url": "https://px.a8.net/svt/ejp?a8mat=6HDXWY+3RU+6Y3CDE+HW5RNQ",
+                "url": "https://px.a8.net/svt/ejp?a8mat=4B5LK2+6HDXWY+3RU+6Y3CDE",
                 "description": "複数の宅配食サービスをまとめて無料で資料請求。費用を比較検討できます。",
                 "forWho": "費用を抑えたい方",
                 "notFor": "",
@@ -29,7 +29,7 @@ export default function Page() {
         },
         {
                 "name": "イチロウ",
-                "url": "https://px.a8.net/svt/ejp?a8mat=5URGXE+54PG+5YJRM+HW5RNQ",
+                "url": "https://px.a8.net/svt/ejp?a8mat=4B5LK2+5URGXE+54PG+5YJRM",
                 "description": "介護保険外サービス。スポット利用もOKで費用を柔軟にコントロールできます。",
                 "forWho": "費用を管理したい方",
                 "notFor": "",
