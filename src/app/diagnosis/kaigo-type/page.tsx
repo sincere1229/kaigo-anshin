@@ -21,7 +21,7 @@ export default function Page() {
       recommendServices={[
         {
                 "name": "イチロウ",
-                "url": "https://px.a8.net/svt/ejp?a8mat=5URGXE+54PG+5YJRM+HW5RNQ",
+                "url": "https://px.a8.net/svt/ejp?a8mat=4B5LK2+5URGXE+54PG+5YJRM",
                 "description": "介護保険外のオーダーメイド介護サービス。入浴・外出・家事など24時間365日対応。",
                 "forWho": "在宅介護中の方",
                 "notFor": "",
@@ -29,7 +29,7 @@ export default function Page() {
         },
         {
                 "name": "MANOMA",
-                "url": "https://px.a8.net/svt/ejp?a8mat=6DTCAA+59J2+639IQ+HW5RNQ",
+                "url": "https://px.a8.net/svt/ejp?a8mat=4B5LK2+6DTCAA+59J2+639IQ",
                 "description": "ソニーの親の見守りセット。緊急ボタン・カメラ・センサーで安心を提供。",
                 "forWho": "離れて暮らす親の見守りに",
                 "notFor": "",
@@ -37,7 +37,7 @@ export default function Page() {
         },
         {
                 "name": "メディカルフードサービス",
-                "url": "https://px.a8.net/svt/ejp?a8mat=6AU69E+4GYQ+5YJRM+HW5RNQ",
+                "url": "https://px.a8.net/svt/ejp?a8mat=4B5LK2+6AU69E+4GYQ+5YJRM",
                 "description": "管理栄養士監修の宅配食。塩分・カロリー制限食も対応。",
                 "forWho": "食事の準備が大変な方に",
                 "notFor": "",
