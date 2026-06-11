@@ -21,7 +21,7 @@ export default function Page() {
       recommendServices={[
         {
                 "name": "イチロウ",
-                "url": "https://px.a8.net/svt/ejp?a8mat=5URGXE+54PG+5YJRM+HW5RNQ",
+                "url": "https://px.a8.net/svt/ejp?a8mat=4B5LK2+5URGXE+54PG+5YJRM",
                 "description": "一人で抱え込まないために。介護保険外サービスでプロに任せる選択肢。",
                 "forWho": "介護疲れを感じている方",
                 "notFor": "",
@@ -29,7 +29,7 @@ export default function Page() {
         },
         {
                 "name": "MANOMA",
-                "url": "https://px.a8.net/svt/ejp?a8mat=6DTCAA+59J2+639IQ+HW5RNQ",
+                "url": "https://px.a8.net/svt/ejp?a8mat=4B5LK2+6DTCAA+59J2+639IQ",
                 "description": "見守りセンサーで自分が休んでいる間も親の状態を確認できます。",
                 "forWho": "休息を確保したい方",
                 "notFor": "",
