@@ -85,8 +85,8 @@ const CAT_LABEL: Record<string, string> = {
   shokuji: '食事・用品・見守り',
   mental: 'メンタルケア',
   kurashi: '暮らし・住まい',
+ },
 }
-
 export function generateStaticParams() {
   const existing = [
     { category: 'hajimete', id: '1' },
