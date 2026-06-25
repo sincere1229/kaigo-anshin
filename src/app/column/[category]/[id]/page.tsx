@@ -142,7 +142,7 @@ export function generateStaticParams() {
     { category: 'shokuji', id: '9' },
     { category: 'shokuji', id: '10' },
     { category: 'kurashi', id: '1' },
-       { category: 'kurashi', id: '2' },
+    { category: 'kurashi', id: '2' },
     { category: 'kurashi', id: '3' },
     { category: 'kurashi', id: '4' },
     { category: 'kurashi', id: '5' },
