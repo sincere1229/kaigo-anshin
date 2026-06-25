@@ -151,10 +151,10 @@ export function generateStaticParams() {
     { category: 'kurashi', id: '8' },
     { category: 'kurashi', id: '9' },
     { category: 'kurashi', id: '10' },
- 
+ },
 }
   return existing
-}
+
 
 export async function generateMetadata({ params }: { params: Promise<{ category: string; id: string }> }): Promise<Metadata> {
   const { category, id } = await params
