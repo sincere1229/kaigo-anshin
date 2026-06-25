@@ -87,7 +87,7 @@ const CAT_LABEL: Record<string, string> = {
   mental: 'メンタルケア',
   kurashi: '暮らし・住まい',
  },
-}
+
 export function generateStaticParams() {
   const existing = [
     { category: 'hajimete', id: '1' },
