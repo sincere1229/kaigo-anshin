@@ -151,8 +151,9 @@ export function generateStaticParams() {
     { category: 'kurashi', id: '8' },
     { category: 'kurashi', id: '9' },
     { category: 'kurashi', id: '10' },
+      ]
  },
-}
+
   return existing
 
 
