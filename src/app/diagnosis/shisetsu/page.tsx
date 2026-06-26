@@ -20,22 +20,50 @@ export default function Page() {
       ]}
       recommendServices={[
         {
-                "name": "イチロウ",
-                "url": "https://px.a8.net/svt/ejp?a8mat=4B5LK2+5URGXE+54PG+5YJRM",
-                "description": "施設入居前・入居後も使える介護保険外サービス。外出支援・家族の代わりに対応。",
-                "forWho": "施設入居を検討中の方",
-                "notFor": "",
-                "badge": "介護サービス"
+          name: 'いい介護（施設検索）',
+          url: 'https://px.a8.net/svt/ejp?a8mat=4B5LK2+5VYC4Y+5VOK+5YZ75',
+          description: '',
+          badge: '介護',
+          forWho: '', notFor: '',
+          imageUrl: 'https://www21.a8.net/svt/bgt?aid=260601698356&wid=001&eno=01&mid=s00000027434001003000&mc=1',
+          imageWidth: 300,
+          imageHeight: 250,
+          impUrl: 'https://www15.a8.net/0.gif?a8mat=4B5LK2+5VYC4Y+5VOK+5YZ75',
         },
         {
-                "name": "メディミール",
-                "url": "https://px.a8.net/svt/ejp?a8mat=4B5LK2+6F07HU+4ICQ+5YZ76",
-                "description": "介護食・やわらか食の宅配。嚥下が心配な方向けのメニューも充実。",
-                "forWho": "食事に不安がある方",
-                "notFor": "",
-                "badge": "介護食"
-        }
-]}
+          name: '介護タウン（介護転職）',
+          url: 'https://px.a8.net/svt/ejp?a8mat=4B5LK2+5VCWJ6+5W1C+5YZ75',
+          description: '',
+          badge: '介護転職',
+          forWho: '', notFor: '',
+          imageUrl: 'https://www22.a8.net/svt/bgt?aid=260601698355&wid=001&eno=01&mid=s00000027480001003000&mc=1',
+          imageWidth: 300,
+          imageHeight: 250,
+          impUrl: 'https://www19.a8.net/0.gif?a8mat=4B5LK2+5VCWJ6+5W1C+5YZ75',
+        },
+        {
+          name: 'かいご畑（介護求人）',
+          url: 'https://px.a8.net/svt/ejp?a8mat=4B5LK2+5X57CI+1W34+C5O69',
+          description: '',
+          badge: '介護転職',
+          forWho: '', notFor: '',
+          imageUrl: 'https://www29.a8.net/svt/bgt?aid=260601698358&wid=001&eno=01&mid=s00000008824002042000&mc=1',
+          imageWidth: 300,
+          imageHeight: 250,
+          impUrl: 'https://www18.a8.net/0.gif?a8mat=4B5LK2+5X57CI+1W34+C5O69',
+        },
+        {
+          name: '相続アシスト',
+          url: 'https://af.moshimo.com/af/c/click?a_id=5647169&p_id=7301&pc_id=20977&pl_id=93281',
+          description: '相続の手間も不安も、まるごとゼロに。専門家チームによるゼロタッチ相続税申告。',
+          badge: '相続',
+          forWho: '', notFor: '',
+          imageUrl: 'https://image.moshimo.com/af-img/3982/000000093281.png',
+          imageWidth: 300,
+          imageHeight: 250,
+          impUrl: 'https://i.moshimo.com/af/i/impression?a_id=5647169&p_id=7301&pc_id=20977&pl_id=93281',
+        },
+      ]}
     />
   )
 }
