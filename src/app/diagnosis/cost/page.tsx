@@ -20,22 +20,61 @@ export default function Page() {
       ]}
       recommendServices={[
         {
-                "name": "宅配食事まとめ資料請求",
-                "url": "https://px.a8.net/svt/ejp?a8mat=4B5LK2+6HDXWY+3RU+6Y3CDE",
-                "description": "複数の宅配食サービスをまとめて無料で資料請求。費用を比較検討できます。",
-                "forWho": "費用を抑えたい方",
-                "notFor": "",
-                "badge": "無料比較"
+          name: 'メディミール（健康宅食）',
+          url: 'https://px.a8.net/svt/ejp?a8mat=4B5LK2+6F07HU+4ICQ+5ZEMP',
+          description: '',
+          badge: '食品宅配',
+          forWho: '', notFor: '',
+          imageUrl: 'https://www22.a8.net/svt/bgt?aid=260601698388&wid=001&eno=01&mid=s00000021041001005000&mc=1',
+          imageWidth: 300,
+          imageHeight: 47,
+          impUrl: 'https://www18.a8.net/0.gif?a8mat=4B5LK2+6F07HU+4ICQ+5ZEMP',
         },
         {
-                "name": "イチロウ",
-                "url": "https://px.a8.net/svt/ejp?a8mat=4B5LK2+5URGXE+54PG+5YJRM",
-                "description": "介護保険外サービス。スポット利用もOKで費用を柔軟にコントロールできます。",
-                "forWho": "費用を管理したい方",
-                "notFor": "",
-                "badge": "介護サービス"
-        }
-]}
+          name: '健康直球便（冷凍弁当）',
+          url: 'https://px.a8.net/svt/ejp?a8mat=4B5LK2+6GSIB6+5E7E+5YZ75',
+          description: '',
+          badge: '食品宅配',
+          forWho: '', notFor: '',
+          imageUrl: 'https://www24.a8.net/svt/bgt?aid=260601698391&wid=001&eno=01&mid=s00000025169001003000&mc=1',
+          imageWidth: 300,
+          imageHeight: 250,
+          impUrl: 'https://www13.a8.net/0.gif?a8mat=4B5LK2+6GSIB6+5E7E+5YZ75',
+        },
+        {
+          name: 'わんまいる（惣菜宅配）',
+          url: 'https://px.a8.net/svt/ejp?a8mat=4B5LK2+6D7WOI+2SIM+6J4I9',
+          description: '',
+          badge: '食品宅配',
+          forWho: '', notFor: '',
+          imageUrl: 'https://www27.a8.net/svt/bgt?aid=260601698385&wid=001&eno=01&mid=s00000013027001097000&mc=1',
+          imageWidth: 300,
+          imageHeight: 206,
+          impUrl: 'https://www10.a8.net/0.gif?a8mat=4B5LK2+6D7WOI+2SIM+6J4I9',
+        },
+        {
+          name: 'あんしん相談室（宅配ごはん）',
+          url: 'https://px.a8.net/svt/ejp?a8mat=4B5LK2+6HDXWY+3RU+6Y59TD',
+          description: '',
+          badge: '食品宅配',
+          forWho: '', notFor: '',
+          imageUrl: 'https://www26.a8.net/svt/bgt?aid=260601698392&wid=001&eno=01&mid=s00000000489042015000&mc=1',
+          imageWidth: 300,
+          imageHeight: 38,
+          impUrl: 'https://www17.a8.net/0.gif?a8mat=4B5LK2+6HDXWY+3RU+6Y59TD',
+        },
+        {
+          name: '相続アシスト',
+          url: 'https://af.moshimo.com/af/c/click?a_id=5647169&p_id=7301&pc_id=20977&pl_id=93281',
+          description: '相続の手間も不安も、まるごとゼロに。専門家チームによるゼロタッチ相続税申告。',
+          badge: '相続',
+          forWho: '', notFor: '',
+          imageUrl: 'https://image.moshimo.com/af-img/3982/000000093281.png',
+          imageWidth: 300,
+          imageHeight: 250,
+          impUrl: 'https://i.moshimo.com/af/i/impression?a_id=5647169&p_id=7301&pc_id=20977&pl_id=93281',
+        },
+      ]}
     />
   )
 }
